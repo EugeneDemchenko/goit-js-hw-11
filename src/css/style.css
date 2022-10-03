@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    background-color: rgb(36, 68, 250);
+}
+.search-form {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.search-form input {
+    height: 20px;
+    width: 300px;
+}
+.search-form button {
+    height: 26px;
+}
