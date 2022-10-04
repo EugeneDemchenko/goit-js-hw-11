@@ -1,12 +1,12 @@
 body {
     margin: 0;
 }
-.container {
+.header {
     width: 100%;
     background-color: rgb(36, 68, 250);
 }
 .search-form {
-    width: 500px;
+    width: 371px;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -15,6 +15,25 @@ body {
     height: 20px;
     width: 300px;
 }
-.search-form button {
+button {
     height: 26px;
+}
+.loading-images {
+    display: block;
+    margin: 0 auto;
+}
+.is-hidden {
+    display: none;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
 }

@@ -10,5 +10,4 @@ return await axios.get(
   } catch (error) {
     console.error(error);
   }
-
 }
